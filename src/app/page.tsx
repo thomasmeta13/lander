@@ -22,11 +22,11 @@ export default function Home() {
             href="https://fonts.googleapis.com/css?family=Montserrat"
             rel="stylesheet"
           ></link>
-          <link rel="shortcut icon" href="/favicon.png"></link>
-          <title>SGN</title>
+          <link rel="shortcut icon" href="imgs/logo.png"></link>
+          <title>SHAGA</title>
         </Head>
         <Homepage />
-        <InfiniteSlider />
+        {/* <InfiniteSlider /> */}
         <About />
         <Advisor />
       </MainLayout>

@@ -31,10 +31,10 @@ const InfiniteSlider = () => {
             </div>
             <div className="flex flex-col gap-[1px]">
               <p className="text-[32px] text-white">
-                “I want this thing to exist”
+                “What's cool about composability?”
               </p>
               <span className="text-[20px] text-gray-500">
-                - Anatoly Yakovenko{" "}
+                - Michael| STar atlas Co-founder & CEO{" "}
               </span>
             </div>{" "}
           </div>

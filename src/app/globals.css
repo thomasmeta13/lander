@@ -178,6 +178,12 @@ body {
   inset: 0;
 }
 
+.avatar-image {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
 @keyframes loop {
   0% {
     transform: translateX(0);

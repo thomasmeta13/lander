@@ -47,7 +47,7 @@ const About: FC = () => {
           </div>
           <AboutSlider />
         </div>
-        <div className="flex flex-col w-full">
+        {/* <div className="flex flex-col w-full">
           <div
             className="relative flex items-center justify-start text-[24px] md:text-[64px] font-bold md:gap-[32px] gap-[10px] lg:ml-[100px]
            "
@@ -70,7 +70,7 @@ const About: FC = () => {
             </span>
           </div>
           <AboutSlider />
-        </div>
+        </div> */}
       </div>
     </div>
   );

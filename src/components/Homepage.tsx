@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import { FC } from "react";
 import { Gradient1Icon, Gradient2Icon, StreamNowIcon } from "./Svglist";
 
@@ -22,15 +21,18 @@ const Header: FC = () => {
               Gaming
             </p>
             <p className="text-white text-[24px] font-[400]">
-              Bring exposure to your game, content to your <br /> communities
-              and monetize your content directly on!
+              Bring cloud gaming to your home, monetize your PC <br /> and
+              stream from anywhere, with the lowest latencies!
             </p>
             <div className="w-full flex items-center justify-start gap-[32px]">
-              <button className="bg-[#29B080] rounded-[22px] text-white text-[12px] md:text-[20px] py-[13px] md:py-[23px] px-[32px] border-[5px] border-[#070e0bcc] shadow-join">
-                Join Waitlist
-              </button>
-              <button className="bg-[#162724] rounded-[22px] text-[#29B080] text-[12px] md:text-[20px] py-[13px] md:py-[23px] px-[32px] border-[1px] border-[#29B080] gap-[8px] flex items-center justify-center">
-                <StreamNowIcon /> Stream Now
+              <a href="https://discord.gg/9A9JPt5ZPU" target="_blank" rel="noopener noreferrer">
+                <button className="bg-[#29B080] rounded-[22px] text-white text-[12px] md:text-[20px] py-[13px] md:py-[23px] px-[32px] border-[5px] border-[#070e0bcc] shadow-join">
+                  Join Waitlist
+                </button>
+              </a>
+              <button 
+                className="bg-[#162724] rounded-[22px] text-[#29B080] text-[12px] md:text-[20px] py-[13px] md:py-[23px] px-[32px] border-[1px] border-[#29B080] gap-[8px] flex items-center justify-center"              >
+                <StreamNowIcon /> Stream Now (🔜)
               </button>
             </div>
           </div>

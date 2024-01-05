@@ -8,6 +8,7 @@ import { IoMdClose } from "react-icons/io";
 
 const Header: FC = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+
   return (
     <>
       <div className="py-[23px] w-full flex items-center justify-center">
@@ -27,14 +28,14 @@ const Header: FC = () => {
             </div>
           </div>
           <div className="lg:gap-[42px] gap-[30px] items-center justify-center flex">
-            {HEADER_LINKS.map((item, index) => (
+            {/* {HEADER_LINKS.map((item, index) => (
               <li
                 className="text-[18px] text-[#929298] list-none hidden lg:block cursor-pointer"
                 key={index}
               >
                 {item.title}
               </li>
-            ))}
+            ))} */}
 
             <button className="bg-[#29B080] rounded-[10px] text-white text-[18px] px-[21px] py-3 hidden lg:block">
               Join Waitlist
