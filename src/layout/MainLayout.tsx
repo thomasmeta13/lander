@@ -2,7 +2,7 @@
 import { FC, ReactNode } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import AbsoluteBg from "@/components/AbsoluteBg";
+import AbsoluteBg from "@/src/components/AbsoluteBg";
 
 interface Props {
   meta?: ReactNode;

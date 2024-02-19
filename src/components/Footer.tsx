@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-img-element */
 import { FC } from "react";
-import { CONNECT_LINKS, FOOTER_COMPANY_LINKS, LEARN_LINKS } from "@/config";
+import { CONNECT_LINKS, FOOTER_COMPANY_LINKS, LEARN_LINKS } from "@/src/config";
 
 const Footer: FC = () => {
   return (

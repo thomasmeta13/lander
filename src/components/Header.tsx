@@ -1,6 +1,6 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import { HEADER_LINKS } from "@/config";
+import { HEADER_LINKS } from "@/src/config";
 import { FC, useState } from "react";
 
 import { CiMenuFries } from "react-icons/ci";

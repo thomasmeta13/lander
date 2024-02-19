@@ -1,8 +1,8 @@
-import About from "@/components/About";
-import Advisor from "@/components/Advisor";
-import Homepage from "@/components/Homepage";
-import InfiniteSlider from "@/components/InfiniteSlider";
-import MainLayout from "@/layout/MainLayout";
+import About from "@/src/components/About";
+import Advisor from "@/src/components/Advisor";
+import Homepage from "@/src/components/Homepage";
+import InfiniteSlider from "@/src/components/InfiniteSlider";
+import MainLayout from "@/src/layout/MainLayout";
 import Head from "next/head";
 
 export default function Home() {
