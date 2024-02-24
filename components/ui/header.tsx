@@ -33,12 +33,12 @@ export default function Header() {
               <li>
                 <Link className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="/">Home</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="/changelog">Roadmap</Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="https://tag.shaga.xyz">Tag</Link>
-              </li>
+              </li> */}
             </ul>
 
           </nav>

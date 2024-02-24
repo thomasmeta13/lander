@@ -32,7 +32,7 @@ export default function Hero() {
                 </a>
               </div>
             </div>
-            <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r mt-4 from-emerald-200 via-slate-100 to-slate-100/90 pb-4" data-aos="fade-down">P2P Web3 Gaming</h1>
+            <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r mt-4 from-emerald-200 via-slate-100 to-slate-100/90 pb-4" data-aos="fade-down">P2P Edge Gaming</h1>
             <p className="text-lg text-slate-300 mb-8" data-aos="fade-down" data-aos-delay="200">Gaming at the speed of light. Turn your personal device into a compute node and earn passive income!</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4" data-aos="fade-down" data-aos-delay="400">
               <div>

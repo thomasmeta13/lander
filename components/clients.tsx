@@ -64,7 +64,7 @@ export default function Clients() {
                     height={45}
                   />
                 </div>
-                <div className="swiper-slide !w-auto">
+                {/* <div className="swiper-slide !w-auto">
                   <Image
                     className="mt-1"
                     src={Client03}
@@ -72,23 +72,23 @@ export default function Clients() {
                     width={107}
                     height={33}
                   />
-                </div>
-                <div className="swiper-slide !w-auto">
+                </div> */}
+                {/* <div className="swiper-slide !w-auto">
                   <Image
                     src={Client04}
                     alt="Client 04"
                     width={120}
                     height={50}
                   />
-                </div>
-                <div className="swiper-slide !w-auto">
+                </div> */}
+                {/* <div className="swiper-slide !w-auto">
                   <Image
                     src={Client05}
                     alt="Client 05"
                     width={120}
                     height={18}
                   />
-                </div>
+                </div> */}
                 <div className="swiper-slide !w-auto">
                   <Image
                     src={Client06}
