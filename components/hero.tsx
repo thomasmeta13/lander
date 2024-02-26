@@ -36,7 +36,7 @@ export default function Hero() {
             <p className="text-lg text-slate-300 mb-8" data-aos="fade-down" data-aos-delay="200">Gaming at the speed of light. Turn your personal device into a compute node and earn passive income!</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4" data-aos="fade-down" data-aos-delay="400">
               <div>
-                <a className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group" href="https://tag.shaga.xyz">
+                <a className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group" href="https://discord.gg/N7hUS7dScG">
                   Get Started <span className="tracking-normal text-emerald-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </a>
               </div>
