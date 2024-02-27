@@ -5,7 +5,7 @@ import Image from "next/image";
 import Particles from "./particles";
 
 import Client01 from "@/public/images/googlecloud.png";
-import Client02 from "@/public/images/logo (3).png";
+import Client02 from "@/public/images/solana.png";
 import Client03 from "@/public/images/client-03.svg";
 import Client04 from "@/public/images/client-04.svg";
 import Client05 from "@/public/images/client-05.svg";
@@ -13,6 +13,10 @@ import Client06 from "@/public/images/client-06.svg";
 import Client07 from "@/public/images/client-07.svg";
 import Client08 from "@/public/images/client-08.svg";
 import Client09 from "@/public/images/client-09.svg";
+import Client10 from "@/public/images/mixmob.png";
+import Client11 from "@/public/images/aurory.png";
+
+
 
 import Swiper, { Autoplay } from "swiper";
 import "swiper/swiper.min.css";
@@ -94,6 +98,22 @@ export default function Clients() {
                     src={Client06}
                     alt="Client 06"
                     width={30}
+                    height={34}
+                  />
+                </div>
+                <div className="swiper-slide !w-auto">
+                  <Image
+                    src={Client10}
+                    alt="Client 10"
+                    width={50}
+                    height={34}
+                  />
+                </div>
+                <div className="swiper-slide !w-auto">
+                  <Image
+                    src={Client11}
+                    alt="Client 11"
+                    width={110}
                     height={34}
                   />
                 </div>

@@ -118,7 +118,7 @@ export default function TestimonialsCarousel() {
                       <Image className="mb-3" src={CarouselImg03} width={56} height={56} alt="Icon 01" style={{borderRadius:"20px"}}/>
                       <div className="grow">
                         <div className="font-bold text-lg mb-1">Amir Haleem</div>
-                        <div className="text-slate-400 mb-3">Helium Mobile Founder & CEO. Driving crypto adoption through DePin.</div>
+                        <div className="text-slate-400 mb-3">Chairman, CEO & Founder, Nova Labs. Driving crypto adoption through DePin.</div>
                       </div>
                       {/* <div className="text-right">
                         <a className="text-sm font-medium text-slate-300 hover:text-white inline-flex items-center transition duration-150 ease-in-out group" href="#0">Learn More <span className="tracking-normal text-emerald-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span></a>
@@ -138,7 +138,7 @@ export default function TestimonialsCarousel() {
                       <Image className="mb-3" src={CarouselImg04} width={56} height={56} alt="Icon 01" style={{borderRadius:"20px"}}/>
                       <div className="grow">
                         <div className="font-bold text-lg mb-1">Aurory</div>
-                        <div className="text-slate-400 mb-3">One of the biggest web3 games.</div>
+                        <div className="text-slate-400 mb-3">Web3 gaming studio with 70+ employees from Ubisoft, EA, and more.</div>
                       </div>
                       {/* <div className="text-right">
                         <a className="text-sm font-medium text-slate-300 hover:text-white inline-flex items-center transition duration-150 ease-in-out group" href="#0">Learn More <span className="tracking-normal text-emerald-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span></a>

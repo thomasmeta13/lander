@@ -26,7 +26,7 @@ export default function Features03() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-zinc-200/60 via-slate-200 to-slate-200/60 pb-4">More than gaming</h2>
-            <p className="text-lg text-slate-400">There are many variations available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            <p className="text-lg text-slate-400">Our cutting-edge cloud technology ensures you enjoy the best gaming experiences with low latency and high performance, anywhere, anytime.</p>
           </div>
 
           <div className="max-w-3xl mx-auto">

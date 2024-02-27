@@ -21,7 +21,7 @@ const Advisor: FC = () => {
               avatarUrl="imgs/stephen.jpeg"
             />
             <TeamCard 
-              name="Amir Haleem" 
+              name="Abhay Kumar" 
               role="Founder Helium Network"
               avatarUrl="imgs/amir.jpg"
             />

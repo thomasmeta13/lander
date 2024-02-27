@@ -6,7 +6,7 @@ import { Transition } from '@headlessui/react'
 import Particles from './particles'
 
 import TestimonialImg01 from '@/public/images/toly.jpeg'
-import TestimonialImg02 from '@/public/images/amir.jpg'
+import TestimonialImg02 from '@/public/images/abhay.jpeg'
 import TestimonialImg03 from '@/public/images/michael.jpeg'
 import TestimonialImg04 from '@/public/images/harlk.png'
 import TestimonialImg05 from '@/public/images/paul.jpeg'
@@ -34,8 +34,8 @@ export default function Testimonials() {
     {
       img: TestimonialImg02,
       quote: "Shaga’s aligned supply & demand will be key to its DePIN success.",
-      name: 'Amir Haleem',
-      role: 'Helium Mobile CEO'
+      name: 'Abhay Kumar',
+      role: 'Helium Foundation CEO'
     },
     {
       img: TestimonialImg03,
