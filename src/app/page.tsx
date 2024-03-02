@@ -22,6 +22,12 @@ export default function Home() {
             href="https://fonts.googleapis.com/css?family=Montserrat"
             rel="stylesheet"
           ></link>
+          <link rel="shortcut icon" href="/favicon.png"></link>
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/logos/apple-touch-icon.png"
+          ></link>
           <link
             rel="icon"
             type="image/png"
@@ -34,6 +40,7 @@ export default function Home() {
             sizes="16x16"
             href="/logos/favicon-16x16.png"
           ></link>
+          <link rel="manifest" href="/logos/site.webmanifest"></link>
           <title>SHAGA</title>
         </Head>
         <Homepage />
