@@ -22,7 +22,18 @@ export default function Home() {
             href="https://fonts.googleapis.com/css?family=Montserrat"
             rel="stylesheet"
           ></link>
-          <link rel="shortcut icon" href="imgs/logo.png"></link>
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/logos/favicon-32x32.png"
+          ></link>
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/logos/favicon-16x16.png"
+          ></link>
           <title>SHAGA</title>
         </Head>
         <Homepage />
