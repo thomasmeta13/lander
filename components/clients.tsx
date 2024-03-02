@@ -16,8 +16,6 @@ import Client09 from "@/public/images/client-09.svg";
 import Client10 from "@/public/images/mixmob.png";
 import Client11 from "@/public/images/aurory.png";
 
-
-
 import Swiper, { Autoplay } from "swiper";
 import "swiper/swiper.min.css";
 Swiper.use([Autoplay]);
@@ -44,7 +42,7 @@ export default function Clients() {
         <div className="absolute inset-0 max-w-6xl mx-auto px-4 sm:px-6">
           <Particles className="absolute inset-0 -z-10" quantity={5} />
         </div>
-        <div className="py-12 md:py-16">
+        <div className="py-6 md:py-10">
           <div className="overflow-hidden">
             {/* Carousel built with Swiper.js [https://swiperjs.com/] */}
             {/* * Custom styles in src/css/additional-styles/theme.scss */}
@@ -56,16 +54,16 @@ export default function Clients() {
                     className="grayscale"
                     src={Client01}
                     alt="Client 01"
-                    width={150}
-                    height={21}
+                    width={100}
+                    height={14}
                   />
                 </div>
                 <div className="swiper-slide !w-auto">
                   <Image
                     src={Client02}
                     alt="Client 02"
-                    width={130}
-                    height={45}
+                    width={80}
+                    height={40}
                   />
                 </div>
                 {/* <div className="swiper-slide !w-auto">
@@ -97,24 +95,24 @@ export default function Clients() {
                   <Image
                     src={Client06}
                     alt="Client 06"
-                    width={30}
-                    height={34}
+                    width={20}
+                    height={22}
                   />
                 </div>
                 <div className="swiper-slide !w-auto">
                   <Image
                     src={Client10}
                     alt="Client 10"
-                    width={50}
-                    height={34}
+                    width={33}
+                    height={24}
                   />
                 </div>
                 <div className="swiper-slide !w-auto">
                   <Image
                     src={Client11}
                     alt="Client 11"
-                    width={110}
-                    height={34}
+                    width={74}
+                    height={22}
                   />
                 </div>
               </div>
