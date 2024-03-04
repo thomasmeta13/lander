@@ -42,7 +42,7 @@ export default function Clients() {
         <div className="absolute inset-0 max-w-6xl mx-auto px-4 sm:px-6">
           <Particles className="absolute inset-0 -z-10" quantity={5} />
         </div>
-        <div className="py-6 md:py-10">
+        <div className="py-12 md:py-16">
           <div className="overflow-hidden">
             {/* Carousel built with Swiper.js [https://swiperjs.com/] */}
             {/* * Custom styles in src/css/additional-styles/theme.scss */}
@@ -54,16 +54,16 @@ export default function Clients() {
                     className="grayscale"
                     src={Client01}
                     alt="Client 01"
-                    width={100}
-                    height={14}
+                    width={110}
+                    height={15}
                   />
                 </div>
                 <div className="swiper-slide !w-auto">
                   <Image
                     src={Client02}
                     alt="Client 02"
-                    width={80}
-                    height={40}
+                    width={110}
+                    height={39}
                   />
                 </div>
                 {/* <div className="swiper-slide !w-auto">
@@ -95,24 +95,24 @@ export default function Clients() {
                   <Image
                     src={Client06}
                     alt="Client 06"
-                    width={20}
-                    height={22}
+                    width={26}
+                    height={29}
                   />
                 </div>
                 <div className="swiper-slide !w-auto">
                   <Image
                     src={Client10}
                     alt="Client 10"
-                    width={33}
-                    height={24}
+                    width={43}
+                    height={29}
                   />
                 </div>
                 <div className="swiper-slide !w-auto">
                   <Image
                     src={Client11}
                     alt="Client 11"
-                    width={74}
-                    height={22}
+                    width={95}
+                    height={29}
                   />
                 </div>
               </div>
