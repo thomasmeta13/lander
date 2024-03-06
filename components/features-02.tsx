@@ -1,41 +1,62 @@
-import Image from 'next/image'
-import Particles from './particles'
-import Highlighter, { HighlighterItem } from './highlighter'
+import Image from "next/image";
+import Particles from "./particles";
+import Highlighter, { HighlighterItem } from "./highlighter";
 
-import FeatureImg01 from '@/public/images/feature-image-01.png'
-import FeatureImg02 from '@/public/images/demoa.png'
-import FeatureImg03 from '@/public/images/id.png'
+import FeatureImg01 from "@/public/images/feature-image-01.png";
+import FeatureImg02 from "@/public/images/demoa.png";
+import FeatureImg03 from "@/public/images/id.png";
 
 export default function Features02() {
   return (
     <section className="relative">
-
       {/* Particles animation */}
       <div className="absolute left-1/2 -translate-x-1/2 top-0 -z-10 w-80 h-80 -mt-24 -ml-32">
-        <Particles className="absolute inset-0 -z-10" quantity={6} staticity={30} />    
+        <Particles
+          className="absolute inset-0 -z-10"
+          quantity={6}
+          staticity={30}
+        />
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-16 md:pt-32">
-
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-zinc-200/60 via-slate-200 to-slate-200/60 pb-4">Faster. Anywhere.</h2>
-            <p className="text-lg text-slate-400">Play from any device, wherever you are. Simply connect to the Shaga network and find nodes close to you.</p>
+            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-zinc-200/60 via-slate-200 to-slate-200/60 pb-4">
+              Faster. Anywhere.
+            </h2>
+            <p className="text-lg text-slate-400">
+              Play from any device, wherever you are. Simply connect to the
+              Shaga network and find nodes close to you.
+            </p>
           </div>
 
           {/* Highlighted boxes */}
           <div className="relative pb-12 md:pb-20">
             {/* Blurred shape */}
-            <div className="absolute bottom-0 -mb-20 left-1/2 -translate-x-1/2 blur-2xl opacity-50 pointer-events-none" aria-hidden="true">
+            <div
+              className="absolute bottom-0 -mb-20 left-1/2 -translate-x-1/2 blur-2xl opacity-50 pointer-events-none"
+              aria-hidden="true"
+            >
               <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
                 <defs>
-                  <linearGradient id="bs2-a" x1="19.609%" x2="50%" y1="14.544%" y2="100%">
+                  <linearGradient
+                    id="bs2-a"
+                    x1="19.609%"
+                    x2="50%"
+                    y1="14.544%"
+                    y2="100%"
+                  >
                     <stop offset="0%" stopColor="#22c55e" />
                     <stop offset="100%" stopColor="#22c55e" stopOpacity="0" />
                   </linearGradient>
                 </defs>
-                <path fill="url(#bs2-a)" fillRule="evenodd" d="m346 898 461 369-284 58z" transform="translate(-346 -898)" />
+                <path
+                  fill="url(#bs2-a)"
+                  fillRule="evenodd"
+                  d="m346 898 461 369-284 58z"
+                  transform="translate(-346 -898)"
+                />
               </svg>
             </div>
             {/* Grid */}
@@ -46,28 +67,60 @@ export default function Features02() {
                   <div className="relative h-full bg-zinc-900 rounded-[inherit] z-20 overflow-hidden">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                       {/* Blurred shape */}
-                      <div className="absolute right-0 top-0 blur-2xl" aria-hidden="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="342" height="393">
+                      <div
+                        className="absolute right-0 top-0 blur-2xl"
+                        aria-hidden="true"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="342"
+                          height="393"
+                        >
                           <defs>
-                            <linearGradient id="bs-a" x1="19.609%" x2="50%" y1="14.544%" y2="100%">
+                            <linearGradient
+                              id="bs-a"
+                              x1="19.609%"
+                              x2="50%"
+                              y1="14.544%"
+                              y2="100%"
+                            >
                               <stop offset="0%" stopColor="#22c55e" />
-                              <stop offset="100%" stopColor="#22c55e" stopOpacity="0" />
+                              <stop
+                                offset="100%"
+                                stopColor="#22c55e"
+                                stopOpacity="0"
+                              />
                             </linearGradient>
                           </defs>
-                          <path fill="url(#bs-a)" fillRule="evenodd" d="m104 .827 461 369-284 58z" transform="translate(0 -112.827)" opacity=".7" />
+                          <path
+                            fill="url(#bs-a)"
+                            fillRule="evenodd"
+                            d="m104 .827 461 369-284 58z"
+                            transform="translate(0 -112.827)"
+                            opacity=".7"
+                          />
                         </svg>
                       </div>
                       {/* Radial gradient */}
-                      <div className="absolute flex items-center justify-center bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 h-full aspect-square" aria-hidden="true">
+                      <div
+                        className="absolute flex items-center justify-center bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 h-full aspect-square"
+                        aria-hidden="true"
+                      >
                         <div className="absolute inset-0 translate-z-0 bg-emerald-500 rounded-full blur-[120px] opacity-70" />
                         <div className="absolute w-1/4 h-1/4 translate-z-0 bg-emerald-400 rounded-full blur-[40px]" />
                       </div>
                       {/* Text */}
-                      <div className="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8 md:pr-0">
+                      <div className="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 md:p-8 md:pr-0">
                         <div className="mb-5">
                           <div>
-                            <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-zinc-200/60 via-slate-200 to-slate-200/60 pb-1">Lowest Latencies</h3>
-                            <p className="text-slate-400">Optimized for distributed local networks. Lower the distance, faster the gamestream. Do not depend on datacenters. </p>
+                            <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-zinc-200/60 via-slate-200 to-slate-200/60 pb-1">
+                              Lowest Latencies
+                            </h3>
+                            <p className="text-slate-400">
+                              Optimized for distributed local networks. Lower
+                              the distance, faster the gamestream. Do not depend
+                              on datacenters.{" "}
+                            </p>
                           </div>
                         </div>
                         <div>
@@ -92,19 +145,33 @@ export default function Features02() {
                   <div className="relative h-full bg-zinc-900 rounded-[inherit] z-20 overflow-hidden">
                     <div className="flex flex-col">
                       {/* Radial gradient */}
-                      <div className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">
+                      <div
+                        className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square"
+                        aria-hidden="true"
+                      >
                         <div className="absolute inset-0 translate-z-0 bg-zinc-900 rounded-full blur-[80px]" />
                       </div>
                       {/* Text */}
                       <div className="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8">
                         <div>
-                          <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-zinc-200/60 via-slate-200 to-slate-200/60 pb-1">Play Effortlessly</h3>
-                          <p className="text-slate-400">The Netflix of gaming. Play anywhere, anytime with a simple click. </p>
+                          <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-zinc-200/60 via-slate-200 to-slate-200/60 pb-1">
+                            Play Effortlessly
+                          </h3>
+                          <p className="text-slate-400">
+                            The Netflix of gaming. Play anywhere, anytime with a
+                            simple click.{" "}
+                          </p>
                         </div>
                       </div>
                       {/* Image */}
-                      <div className="relative w-full h-64 md:h-auto overflow-hidden md:pb-8">
-                        <Image className="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0" src={FeatureImg02} width={336} height={230} alt="Feature 02" />
+                      <div className="relative w-full h-72 md:h-auto overflow-hidden md:pb-8">
+                        <Image
+                          className="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0"
+                          src={FeatureImg02}
+                          width={336}
+                          height={230}
+                          alt="Feature 02"
+                        />
                       </div>
                     </div>
                   </div>
@@ -116,19 +183,33 @@ export default function Features02() {
                   <div className="relative h-full bg-zinc-900 rounded-[inherit] z-20 overflow-hidden">
                     <div className="flex flex-col">
                       {/* Radial gradient */}
-                      <div className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">
+                      <div
+                        className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square"
+                        aria-hidden="true"
+                      >
                         <div className="absolute inset-0 translate-z-0 bg-zinc-900 rounded-full blur-[80px]" />
                       </div>
                       {/* Text */}
                       <div className="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8">
                         <div>
-                          <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-zinc-200/60 via-slate-200 to-slate-200/60 pb-1">Infinite options</h3>
-                          <p className="text-slate-400">Pick between any games you can think of, with no hardware constrains.</p>
+                          <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-zinc-200/60 via-slate-200 to-slate-200/60 pb-1">
+                            Infinite options
+                          </h3>
+                          <p className="text-slate-400">
+                            Pick between any games you can think of, with no
+                            hardware constrains.
+                          </p>
                         </div>
                       </div>
                       {/* Image */}
-                      <div className="relative w-full h-64 md:h-auto overflow-hidden md:pb-8">
-                        <Image className="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0" src={FeatureImg03} width={230} height={230} alt="Feature 03" />
+                      <div className="relative w-full h-72 md:h-auto overflow-hidden md:pb-8">
+                        <Image
+                          className="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0"
+                          src={FeatureImg03}
+                          width={230}
+                          height={230}
+                          alt="Feature 03"
+                        />
                       </div>
                     </div>
                   </div>
@@ -194,9 +275,8 @@ export default function Features02() {
               <p className="text-sm text-slate-400">Login box must find the right balance for the user convenience, privacy and security.</p>
             </div>
           </div> */}
-
         </div>
       </div>
     </section>
-  )
+  );
 }
